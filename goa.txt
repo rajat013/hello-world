@@ -1,0 +1,13 @@
+mahenga -- https://www.booking.com/hotel/in/presidential-villas.html?aid=356980;label=gog235jc-1DCAYYkgQobDhrSDNYA2iVAogBAZgBMbgBF8gBDNgBA-gBAfgBAogCAagCA7gC_YCThwbAAgHSAiRkNzI3OTI0MC01YjZiLTQ0N2MtYWE0MC01NjVlMTBhYTRiMTbYAgTgAgE;sid=b3112d85777cc51944f7d425039a066e;all_sr_blocks=680437901_288291605_7_0_0;checkin=2021-08-05;checkout=2021-08-09;dest_id=4127;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=680437901_288291605_7_0_0;hpos=1;nflt=pri%3D1%3B;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=680437901_288291605_7_0_0__1040000;srepoch=1625604447;srpvid=5182922f33c0009d;type=total;ucfs=1&#hotelTmpl
+
+sasta -- https://www.booking.com/hotel/in/destination-vacation-goa-beach-house.html?aid=356281;label=metatripad-link-dmetaus-hotel-899764_xqdz-a185ae7a35ff671c53d3b8893fbc5369_los-01_bw-029_dom-com_curr-USD_gst-02_nrm-01_clkid-YOTFVgokIXQABFzNXmAAAAPU_aud-0000_mbl-L_pd-B_sc-2_defdate-0_spo-0_clksrc-0_mcid-10;sid=b3112d85777cc51944f7d425039a066e;all_sr_blocks=722183601_309543881_2_0_0;checkin=2021-08-05;checkout=2021-08-06;dest_id=-2103730;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=2;group_children=0;hapos=5;highlighted_blocks=722183601_309543881_2_0_0;hpos=5;map=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=722183601_309543881_2_0_0__184000;srepoch=1625605466;srpvid=da0c942c04690155;type=total;ucfs=1&#map_closed
+
+mehenga -- https://www.makemytrip.com/hotels/hotel-details/?hotelId=201903111839289452&_uCurrency=INR&checkin=08052021&checkout=08092021&city=CTGOI&country=IN&filterData=PROPERTY_TYPE%7CVilla&lat=15.56972&lng=73.75751&locusId=CTGOI&locusType=city&mmAreaTag=Baga%7CARBAG&rank=2&reference=hotel&roomStayQualifier=1e0e&searchText=Baga%2C%20Goa&type=city&mtkeys=defaultMtkey
+
+mehenga -- https://www.makemytrip.com/hotels/hotel-details/?hotelId=202009111521407939&_uCurrency=INR&checkin=08052021&checkout=08092021&city=CTGOI&country=IN&filterData=PROPERTY_TYPE%7CVilla&lat=15.56369&lng=73.74865&locusId=CTGOI&locusType=city&mmAreaTag=Baga%7CARBAG&rank=9&reference=hotel&roomStayQualifier=1e0e&searchText=Baga%2C%20Goa&type=city&mtkeys=defaultMtkey
+
+moderate -- https://www.makemytrip.com/hotels/hotel-details/?hotelId=201807091301492633&_uCurrency=INR&checkin=08052021&checkout=08092021&city=CTGOI&country=IN&filterData=PROPERTY_TYPE%7CVilla&lat=15.52757&lng=73.76556&locusId=CTGOI&locusType=city&mmAreaTag=Candolim%7CARCAN&rank=3&reference=hotel&roomStayQualifier=1e0e&searchText=Baga%2C%20Goa&type=city&mtkeys=defaultMtkey
+
+
+
+
