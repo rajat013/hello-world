@@ -4,8 +4,8 @@ agent any
   stages{
     stage('cloning project'){
       steps {
-        pwd();
-     echo 'repo cloned ,what is current directory $WORKSPACE' 
+       
+     echo "repo cloned ,what is current directory $WORKSPACE"
     }
     }
     stage('building project'){
