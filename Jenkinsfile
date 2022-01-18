@@ -13,7 +13,7 @@ agent any
     }
     stage('building project'){
       steps {
-        sh " sh execute.sh"
+        sh " NAMESPACE=dev sh execute.sh"
      echo 'project build' 
     }
     }
