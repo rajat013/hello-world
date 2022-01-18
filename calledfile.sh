@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo " file called successfully "
-mkdir custom/custom2
+mkdir -p custom/custom2
