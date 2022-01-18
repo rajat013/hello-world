@@ -4,7 +4,7 @@ agent any
   stages{
     stage('cloning project'){
       steps {
-       
+       sh " mkdir hope/hope3"
      echo "repo cloned ,what is current directory $WORKSPACE"
     }
     }
