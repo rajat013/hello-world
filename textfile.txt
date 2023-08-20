@@ -1,1 +1,2 @@
 "added to check merge and rebase"
+updated in master
