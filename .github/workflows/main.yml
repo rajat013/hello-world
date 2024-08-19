@@ -26,7 +26,7 @@ jobs:
         echo "Environment Variables:"
         printenv
         echo "following is the env actions is running ${{ inputs.environment }} "
-        echo "${{ env.POSTGRES_DB }}"
+        echo "${{ vars.POSTGRES_DB }}"
         
     - name: Print secrets
       run: |
