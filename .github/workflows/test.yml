@@ -1,0 +1,48 @@
+name: Print Env and Secrets
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: string
+        description: The environment to apply in
+        required: true
+      branch:
+        description: 'Branch to build image'
+        required: true
+        default: 'master'
+
+jobs:
+  print-vars:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Print environment variables
+      run: |
+        echo "Environment Variables:"
+        printenv
+        
+    - name: Print secrets
+      run: |
+        echo "Secrets are not directly printable for security reasons."
+        echo "Instead, you can check if secrets are available by referencing them:"
+        echo "SECRET_EXAMPLE: ${{ secrets.KEYCLOAK_USER }}"
+
+    - name: List GitHub Actions environment variables
+      run: |
+        echo "GitHub Actions Environment Variables:"
+        echo "GITHUB_ACTION: $GITHUB_ACTION"
+        echo "GITHUB_ACTOR: $GITHUB_ACTOR"
+        echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+        echo "GITHUB_REF: $GITHUB_REF"
+        echo "GITHUB_SHA: $GITHUB_SHA"
+        echo "GITHUB_WORKFLOW: $GITHUB_WORKFLOW"
+        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        echo "GITHUB_RUN_ID: $GITHUB_RUN_ID"
+        echo "GITHUB_RUN_NUMBER: $GITHUB_RUN_NUMBER"
+        echo "GITHUB_JOB: $GITHUB_JOB"
+        echo "GITHUB_HEAD_REF: $GITHUB_HEAD_REF"
+        echo "GITHUB_BASE_REF: $GITHUB_BASE_REF"
