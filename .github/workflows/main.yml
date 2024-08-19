@@ -15,6 +15,7 @@ on:
 jobs:
   print-vars:
     runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
     
     steps:
     - name: Checkout code
@@ -24,6 +25,7 @@ jobs:
       run: |
         echo "Environment Variables:"
         printenv
+        echo "${{ env.POSTGRES_DB }}"
         
     - name: Print secrets
       run: |
