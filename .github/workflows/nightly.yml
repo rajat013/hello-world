@@ -22,4 +22,4 @@ jobs:
             --repo rajat013/hello-world \
             --ref master \
             -f message="Triggered via gh CLI" \
-            -f environment="prod"
+            -f build_env="prod"
