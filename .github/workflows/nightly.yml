@@ -19,6 +19,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh workflow run "keycloak image build" \
-            --ref rajat013/hello-world/master \
+            --repo rajat013/hello-world \
+            --ref master \
             -f message="Triggered via gh CLI" \
             -f environment="prod"
