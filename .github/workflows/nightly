@@ -1,0 +1,24 @@
+name: nightly
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Authenticate gh with PAT
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh auth status
+
+      - name: Trigger sample workflow with parameters
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run "keycloak image build" \
+            --ref master \
+            -f message="Triggered via gh CLI" \
+            -f environment="prod"
